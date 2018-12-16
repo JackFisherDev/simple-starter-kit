@@ -1,0 +1,48 @@
+{
+  "name": "simple-starter-kit",
+  "version": "0.0.1",
+  "description": "Simple starter kit with pre made Gulp adjustment",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackFisherDev/simple-starter-kit.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "postcss",
+    "js",
+    "es6",
+    "babel",
+    "gulp"
+  ],
+  "author": "JackFisherDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackFisherDev/simple-starter-kit/issues"
+  },
+  "homepage": "https://github.com/JackFisherDev/simple-starter-kit#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^9.4.2",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.7",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-uglify": "^3.0.1",
+    "imagemin-guetzli": "^1.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "precss": "^4.0.0"
+  }
+}
